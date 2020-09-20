@@ -8,7 +8,7 @@ HTML:
 - unordered list;
 - Section tag;
 - Headings;
-- <img>;
+- Tag img;
 - 'id' and 'class';
 - Form tag
   
