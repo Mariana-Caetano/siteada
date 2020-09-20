@@ -1,7 +1,10 @@
-dequemviráoevento.addEventListener("evento", oquedevofazer)
+document.getElementById("botaoQuero").addEventListener("click", validaFormulario)
 
-if (document.getElementById("nome").value != "" && document.getElementById("email").value != "") {
+function validaFormulario(){
+  if (document.getElementById("nome").value != "" && document.getElementById("email").value != "") {
   alert("Uhul! Você receberá as novidades por email.")
-}else{
-  alert("Ops!Preencha os campos nome e email.") 
-}  
+  }else{
+    alert("Ops!Preencha os campos nome e email.") 
+  }  
+}
+
