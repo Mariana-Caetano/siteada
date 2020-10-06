@@ -1,4 +1,4 @@
-body{
+body {
   text-align: center;
   font-family: Open Sans, sans-serif;
   background-color: #8a71c9;
@@ -6,39 +6,39 @@ body{
   margin: 0px 0px 0px 0px;
 }
 
-h1{
+h1 {
   font-size: 60px;
   font-weight: 300;
 }
 
-h2{
+h2 {
   color: #2a0074;
   font-size: 40px;
 }
 
-h3{
+h3 {
   font-size: 22px;
   font-style: italic;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 1.5;
 }
 
-.titulo-verde{
-   color: #04ff9f;
+.titulo-verde {
+  color: #04ff9f;
 }
 
-.titulo-rosa{
+.titulo-rosa {
   color: #ff9e9e;
 }
 
-.titulo-amarelo{
+.titulo-amarelo {
   color: #ffe36d;
 }
 
-section{
+section {
   width: 60%;
   margin: 0 auto;
 }
@@ -47,42 +47,42 @@ section section {
   width: 100%;
 }
 
-img{
+img {
   width: 100%;
 }
 
-ul{
+ul {
   list-style-type: none;
   line-height: 2;
   padding-left: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: #99ffff;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-.principal{
-  background-color: #FF6CB5;
+.principal {
+  background-color: #ff6cb5;
   height: 40px;
   max-width: 85%;
   margin: 0 auto;
 }
 
-.principal a{
-  color: #FFF; 
+.principal a {
+  color: #fff;
   text-decoration: underline;
   font-weight: normal;
 }
 
-.principal li{
+.principal li {
   display: inline-block;
   line-height: 2.5;
   margin: 0 89px;
 }
 
-button{
+button {
   background: white;
   border: 1px solid transparent;
   padding: 2px 20px;
@@ -92,19 +92,58 @@ button{
 }
 
 .btn:hover {
-  background-color: #FF6CB5;
-  color: white;
-}
-  
-.footer-msg{
-    text-align: center;
-    margin: 50px 0px 0px 0px;
-    padding: 8px;
-    color: white;
-    background-color: #2a0074;
-}
-
-.linkedin:hover{
+  background-color: #ff6cb5;
   color: white;
 }
 
+.footer-msg {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  padding: 8px;
+  color: white;
+  background-color: #2a0074;
+}
+
+.linkedin:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation: fadeIn 3s ease-in-out;
+  -moz-animation: fadeIn 3s ease-in-out;
+  -o-animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
+}
